@@ -12,7 +12,7 @@ namespace Quazar.Events.Domain
             Moderator = moderator;
             _tickets = new List<Ticket>();
         }
-
+        
         public Map Map { get; private set; }
         
         public Member Moderator { get; }

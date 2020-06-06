@@ -2,13 +2,13 @@
 {
     public class Right
     {
-        public bool GuestAccess;
+        public bool GuestAccess { get; }
 
-        public bool VipAccess;
+        public bool VipAccess { get; }
 
-        public bool ModeratorAccess;
+        public bool ModeratorAccess { get; }
 
-        public bool SpeechAccess;
+        public bool SpeechAccess { get; }
 
         public Right(bool guestAccess, bool vipAccess, bool moderatorAccess, bool speechAccess)
         {

@@ -4,7 +4,7 @@ namespace Quazar.Events.Domain
 {
     public class Scene:Place
     {
-        public Scene(string title, int x, int y) : base("Scene", x, y)
+        public Scene(string title, int x, int y, Right right) : base("Scene", x, y, right)
         {
         }
         
