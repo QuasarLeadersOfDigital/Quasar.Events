@@ -2,6 +2,8 @@
 {
     public class Ticket
     {
-        
+        public int Price;
+
+        public TicketType TicketType;
     }
 }
